@@ -1,0 +1,75 @@
+.section {
+    width: 100%;
+    height: 100vh;
+    background: #D9D9D9;
+}
+
+.content {
+    position: relative;
+    width: 75%;
+    height: 50%;
+    top: 25%;
+    margin: auto;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+}
+
+.labels {
+    text-align: right;
+    float: left;
+    width: 25%;
+    margin-top: 19px;
+}
+
+.label {
+    margin-right: 7px;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.inputText {
+    width: 680px;
+    height: 55px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.inputText:focus {
+    border: #11BB22 2px solid;
+}
+
+.inputTextArea {
+    width: 680px;
+    height: 220px;
+    resize: none;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.inputTextArea:focus {
+    border: #11BB22 2px solid;
+}
+
+.inputs {
+    float: right;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.button {
+    position: relative;
+    top: 224px;
+    left: 246px;
+    width: 238px;
+    height: 46px;
+    background: #11BB22;
+    font-size: 30px;
+    line-height: 43px;
+}
+
+.button:hover {
+    background: #11AB22;
+}

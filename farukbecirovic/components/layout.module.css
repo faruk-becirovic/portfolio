@@ -1,0 +1,104 @@
+.panel {
+    position: fixed;
+    float: left;
+    width: 33vw;
+    height: 100vh;
+    background: #FFF;
+}
+
+.content {
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.title {
+    color: #010B14;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 77px;
+    font-weight: 500;
+}
+
+.subtitleLn {
+    color: #010B14;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 53px;
+    font-weight: 300;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    color: #010B14;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 37px;
+    font-weight: 300;
+}
+
+.link {
+    text-decoration: none;
+    color: #010B14;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.parallax {
+    z-index: 0;
+    position: fixed;
+    height: 100vh;
+    background-image: url('/mountains.JPG');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.display {
+    z-index: 1;
+    position: relative;
+    width: 67vw;
+    float: right;
+}
+
+.footer {
+    z-index: 1;
+    position: relative;
+    width: 67vw;
+    height: 24vh;
+    float: right;
+    background: #2E3438;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.buttons {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    text-decoration: none;
+    color: #D9D9D9;
+    cursor: pointer;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+.notice {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    color: #010B14;
+}

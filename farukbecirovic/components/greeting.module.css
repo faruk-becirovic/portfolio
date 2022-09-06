@@ -1,0 +1,57 @@
+.section {
+    width: 100%;
+    height: 100vh;
+    background: #FF9F1C;
+}
+
+.content {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text {
+    font-style: normal;
+    color: #010B14;
+    font-size: 28px;
+    line-height: 41px;
+    font-weight: 300;
+}
+
+.link {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #F5F5F5;
+}
+
+.heroText {
+    width: 100%;
+    height: 100vh;
+    background: #E71D36;
+}
+
+.slid {
+    height: 100vh;
+}
+
+.horizontalSlider {
+    width: 80%;
+}
+
+.sliderThumb {
+    width: 25px;
+    height: 25px;
+    background: #FF9F1C;
+}
+
+.sliderTrack {
+    background: #E71D36;
+}
